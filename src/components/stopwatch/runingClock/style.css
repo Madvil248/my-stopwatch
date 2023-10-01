@@ -1,0 +1,54 @@
+.runningNumbers {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.circle {
+    margin: 1em;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    padding: 2.5em;
+    min-width: 10em;
+    overflow: hidden;
+    min-height: 10em;
+    position: relative;
+    border-radius: 50%;
+    align-items: center;
+    flex-direction: row;
+    box-sizing: border-box;
+    justify-content: center;
+    background-color: rgba(0, 255, 255, 0.125);
+}
+
+.runningNumbers span {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 500;
+    -webkit-user-select: none;
+}
+
+.runningNumbers .close {
+    top: 10px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    position: absolute;
+    right: calc(50% - 10px);
+    -webkit-user-select: none;
+}
+
+.animaBackground {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    background-color: rgba(0, 255, 255, 0.25);
+}
+
+.CircularProgressbar {
+    position: absolute;
+    top: 0;
+}

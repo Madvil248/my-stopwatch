@@ -1,0 +1,21 @@
+.stopwatch {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #000000;
+}
+
+.stopwatch .stopwatchList {
+    width: 100%;
+    display: flex;
+    min-height: 90vh;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+}
+
+.stopwatch span {
+    color: white;
+}
